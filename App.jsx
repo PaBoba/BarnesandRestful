@@ -1,7 +1,7 @@
 import React from 'react';
 import { ApolloProvider } from '@apollo/client';
-import { client } from './apolloClient'; // Import your Apollo client instance
-import MainComponent from './MainComponent'; // Your main component
+import { client } from './apolloClient'; // Import Apollo client instance
+import MainComponent from './MainComponent'; // main component
 
 function App() {
   return (
