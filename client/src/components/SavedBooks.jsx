@@ -1,6 +1,6 @@
 import React from 'react';
 import { useQuery, useMutation } from '@apollo/client';
-import { GET_ME, REMOVE_BOOK } from '../api/queries'; // Import GET_ME and REMOVE_BOOK queries
+import { GET_ME, REMOVE_BOOK } from '../api/queries'; 
 
 function SavedBooks() {
   const { loading, data } = useQuery(GET_ME);
